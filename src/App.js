@@ -4,13 +4,15 @@ import './App.css';
 
 import HomePage from './components/pages/homepage/homepage.component.jsx';
 import ShopPage from './components/pages/shop/shop.components';
+import Header from './components/header/header.components.jsx';
 
 
 
 
 function App() {
   return (
-    <div className="App">
+    <div >
+      <Header/>
       <Switch>
 
         <Route exact path='/' component={HomePage} />
